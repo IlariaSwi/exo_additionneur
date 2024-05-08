@@ -23,7 +23,7 @@ Avec l’additionneur ci-dessus, est-il possible d’obtenir des 1 sur toutes le
 Cet exercice démontre l’opportunité de penser en termes modulaires, ce qui revient souvent en informatique. Ici, on a réalisé qu’un additionneur complet résout un sous-problème bien défini d’une addition générale d’un nombre à _n_
  bits, et qu’une fois qu’on a créé un tel additionneur, il suffit d’en connecter plusieurs les uns derrière les autres de manière structurée pour additionner des nombres plus grands.
 
- ## Exercice 2
+## Exercice 2
 
  Le schéma ci-dessous montre le même additionneur de demi-octets de l’exercice précédent, mais, de plus, la valeur en base 10 de ses 4 bits d’entrée pour `A` 
  et pour `B` est affichée avec un module d’affichage spécial à droite. 
