@@ -79,7 +79,7 @@ Astuce : pour décrémenter la valeur `i` il suffit d’additionner 1111 qui rep
 
 Les nombres signés sont représentés avec le format complément à deux. Pour un nombre 4-bits, ceci nous donne une plage de -8 à +7 pour des entiers relatifs, et une plage de 0 à 15 pour des entiers naturels. Nous constatons que la plage signée n’est pas symétrique: le côté négatif compte un nombre en plus.
 
-![Schéma des sept segments](./img/4bits_Integers.svg)
+![Schéma des sept segments](./4bits_Integers.svg)
 
 
 L’opération pour trouver le nombre négatif est: inverser tous les bits (symbolisé par `~`) et additionner 1.
